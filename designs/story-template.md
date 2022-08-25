@@ -22,29 +22,33 @@
 2. Recovery of digital wallet idea came from Chandra who wanted to provide ways to reclaim wallet in case customer mobile is lost.
  
 ## Business Challenge
-DLocker customer who lost there phone. Now, when they got new phone and wanted to recover Digital wallets which were store in DLocker. As of now process to restore any wallet/identity is very tailor made based on which kind of institition involved. Customer has to follow each institution guidelines to restore wallets.
+>DLocker customer who lost there phone. Now, when they got new phone and wanted to recover Digital wallets which were store in DLocker. As of now process to restore any wallet/identity is very tailor made based on which kind of institition involved. Customer has to follow each institution guidelines to restore wallets.The world is changing to digital and there is no TRUE Digital Locker available in the market. We have vendor specific lockers to store computer hardware related keys or lockers that stores the uploaded documents in digital format. But there is none available which securely store the recovery material and positively identify the identity owner in a decentralized way. People can’t remember all the keys and the physical copy of them are vulnerable. They need a reliable and secure backup. The Digital locker is filling this void space for digital backup. When the mobile device is lost, the holder need not go to each and every issuer to get the IDs reissued. He can just go to Discover Locker to reissue the ID and with that it can access his lost wallet and identities inside of it.
+
  
 ### Concept
->DLocker uses trust triangle to recover customers digital wallets. DLocker issuer issues distributed identities for customer at time of locker account opening. Distributed identity is used for locker access and recovery.   
+>DLocker uses trust triangle to recover customers digital wallets. DLocker issuer issues distributed identities for customer at time of locker account opening. Distributed identity is used for locker access and recovery. This solution is important because it provides a fully secured implementation for digital backup of digital wallet in the decentralized ID world.  Customers can be worry free about the data they have on their digital wallet during phone loss or compromise. It provides an opportunity to DFS to lead the digital bank by providing this feature.
+  
  
 ### Approach
->Template Instructions: Describe the end to end interactions of the stakeholders in the trust triangle pertinent to this use case story.
+>Below is high level components and there interaction. DLocker customer who wants to restore his digital wallet follow below steps:
+>1. DLocker Customer - Customer who has digital wallets and wanted to access, store and recover in case of lost.
+>2. DLocker App - Holder of the trust traingle, provides locker access and recover functionality.
+>3. Issuer App - Deliveres trust triangle credentials and issue distributed identities.
+>4. Verifier App - Third entity of the trust triangle verifies distributed identity for DLocker csutomer.
 
-![trust-triangle](./images/misc/trust-triangle.png)
+![trust-triangle](./images/persona/Team-AccessDenied-Discover-Digital-Locker-Architecture.png)
  
 ## Vernacular
 
 >Template Instructions: List and describe any terms that will be used in the story and referenced in the UML diagrams. The current list provides a a sample starter list. 
  
-1. **Digital Wallet**: A financial transaction application that runs on multiple device modalities (mobile, computer). These applications store, manage, and present payment and identity instruments.
-3. **Merchant**: An entity involved in e-commerce trade.
-4. **Checkout Platform**: An e-Commerce Payment Platform (web application) used by merchants to manage the consumer experience and the end-to-end processing of e-commerce transactions.
-5. **Credential Verifier Utility**: A merchant would augment their Checkout Platform with support by a vendor solution that allows consumers to: (a) consent to a digital authentication challenge; (b) present a digital credential for identity verification.
-6. **Issuer**: A entity that makes assertions about information and delivers digital credentials containing attestations about those assertions.
-7. **Credential Generator**: A software component used by the Issuer to manage the generation of new digital credentials.
-8. **Credential Issuer Utility**: An Issuer would augment their Credential Generator with support by a vendor solution that allows Issuers to publish a digital credential to consumers.
-9. **Public Registry**: A public utility that allows for the registration and discovery of Decentralized Identifiers (DIDs).
- 
+1. **Digital Locker**: A financial transaction application that runs on multiple device modalities (mobile, computer). These applications store, manage, and present payment and identity instruments.
+2. **DLocker API**: A service which provides locker management services for locker customers. Storing distributed identities and customer transaction for locker access.
+3. **Communication**: A service which provides alerts and email communication for locker customers. Temporary phrash communication etc. in case of wallet recovery.
+4. **DLocker Database**: A cloud data storager service, which will store customer DIDs, locker information and associated wallet data.
+5. **Verifier App**: A merchant (e.g. Evernym) would augment their Checkout Platform with support by a vendor solution that allows consumers to: (a) consent to a digital authentication challenge; (b) present a digital credential for identity verification.
+6. **Issuer App**: A entity ((e.g. Evernym)) that makes assertions about information and delivers digital credentials containing attestations about those assertions. A software component used by the Issuer to manage the generation of new digital credentials.
+
 ## Assumptions
 
 >Template Instructions: List any assumptions to be considered in this use case story.
