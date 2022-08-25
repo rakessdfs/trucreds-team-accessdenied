@@ -1,9 +1,7 @@
-# Use Case Story Title
+# Discover Digital Locker Recovery (DLocker)
 
->NOTE: Update title and remove all Template Instructions.
- 
 #### Table of Contents
-- [Use Case Story Title](#use-case-story-title) 
+- [Discover Digital Locker Recovery](#discover-digital-locker-recovery) 
       - [Table of Contents](#table-of-contents)
   - [Acknowledgements](#acknowledgements)
   - [Business Challenge](#business-challenge)
@@ -20,12 +18,11 @@
  
 ## Acknowledgements
 
->Template Instructions: List any acknowledgements pertaining to the concepts and resources used in this use case story.
- 
-1. This scenario leverages a fictitious company called, _Acme Enterprise_. The <img src="./images/persona/acme-logo.png" width="50" height="40"> Acme Enterprise logo is borrowed from [Katie Wickens](https://steins_kake.artstation.com/projects/ebqgb), a graphics designer.
+1. This scenario leverages increase in digital wallet transactions and offerings by different businesses. Discover Digital Locker Recovery is subsidery of DFS company called, _D Locker_. The <img src="./images/persona/acme-logo.png" width="50" height="40"> DLocker logo is designed by Pranav.
+2. Recovery of digital wallet idea came from Chandra who wanted to provide ways to reclaim wallet in case customer mobile is lost.
  
 ## Business Challenge
->Template Instructions: Briefly describe the business challenge address by this use case story.
+DLocker customer who lost there phone. Now, when they got new phone and wanted to recover Digital wallets which were store in DLocker. As of now process to restore any wallet/identity is very tailor made based on which kind of institition involved. Customer has to follow each institution guidelines to restore wallets.
  
 ### Concept
 >Template Instructions: Briefly describe how this use case applies digit trust technology to the business challenge. 
