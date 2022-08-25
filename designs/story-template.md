@@ -25,7 +25,7 @@
 DLocker customer who lost there phone. Now, when they got new phone and wanted to recover Digital wallets which were store in DLocker. As of now process to restore any wallet/identity is very tailor made based on which kind of institition involved. Customer has to follow each institution guidelines to restore wallets.
  
 ### Concept
->Template Instructions: Briefly describe how this use case applies digit trust technology to the business challenge. 
+>DLocker uses trust triangle to recover customers digital wallets. DLocker issuer issues distributed identities for customer at time of locker account opening. Distributed identity is used for locker access and recovery.   
  
 ### Approach
 >Template Instructions: Describe the end to end interactions of the stakeholders in the trust triangle pertinent to this use case story.
