@@ -18,7 +18,7 @@
  
 ## Acknowledgements
 
-1. This scenario leverages increase in digital wallet transactions and offerings by different businesses. Discover Digital Locker Recovery is subsidery of DFS company called, _D Locker_. The <img src="./images/persona/acme-logo.png" width="50" height="40"> DLocker logo is designed by Pranav.
+1. This scenario leverages increase in digital wallet transactions and offerings by different businesses. Discover Digital Locker Recovery is subsidiary of DFS company and is called, _D Locker_. The <img src="./images/persona/acme-logo.png" width="50" height="40"> DLocker logo is designed by Pranav.
 2. Recovery of digital wallet idea came from Chandra who wanted to provide ways to reclaim wallet in case customer mobile is lost.
  
 ## Business Challenge
