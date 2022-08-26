@@ -30,7 +30,7 @@ Digital locker falls under Social recovery option. i.e., there are "trustees" wh
 | Design Thinking Playback Brief | [Playback Presentation](./presentations/Team-AccessDenied-Design-Brief.pptx)|
 | Concept Playback Video | [Video URL](https://discoverfinancial-my.sharepoint.com/:v:/g/personal/rakeshkumarsharma_discover_com/EWvOGG2XTdZIqKP5URDy1WQBLr_q7p4f6B-VA_DgaqULBw)|
 | Concept Show-n-Tell Video | [Video URL](https://discoverfinancial-my.sharepoint.com/:v:/g/personal/rakeshkumarsharma_discover_com/EfedQxSNyXhEtd_yvs4AQOcBmqmqlYfYxk8OchWT1QtihA) |
-| Code |  [ Readme](./hackproject/README.md) | 
+| Code |  [ Readme](./README.md) | 
 
 ## Solution Decisions
 
