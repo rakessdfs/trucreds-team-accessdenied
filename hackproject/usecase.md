@@ -1,0 +1,12 @@
+## dLocker Use Case Details
+Our project enables Discover to provide Digital Locker feature. The customers can store and access the backup of their digital wallet anytime they want. The backup could include any type of digital keys, ids, credentials, and other types of cryptographic materials.  
+In the physical world, the banks provide Locker services. The customer opens a locker account with bank and stores anything they want in the locker. To unlock the locker, we need both Bank and customer keys. This feature follows a similar pattern to access the locker.
+Digital locker falls under Social recovery option. i.e., there are "trustees" who store encrypted recovery data on an identity owner’s behalf—typically in the trustees own agent(s). Here Discover will be the customer’s trustee and provide “agent” (via mobile app/webpage) support.
+## What problem does this dLocker solves?
+The world is changing to digital and there is no TRUE Digital Locker available in the market. We have vendor specific lockers to store computer hardware related keys or lockers that stores the uploaded documents in digital format. But there is none available which securely store the recovery material and positively identify the identity owner in a decentralized way. People can’t remember all the keys and the physical copy of them are vulnerable. They need a reliable and secure backup. The Digital locker is filling this void space for digital backup. When the mobile device is lost, the holder need not go to each and every issuer to get the IDs reissued. He can just go to Discover Locker to reissue the ID and with that it can access his lost wallet and identities inside of it.
+## Why is this dLocker is important?
+This solution is important because it provides a fully secured implementation for digital backup of digital wallet in the decentralized ID world.  Customers can be worry free about the data they have on their digital wallet during phone loss or compromise. It provides an opportunity to DFS to lead the digital bank by providing this feature
+## dLocker Architecture
+![dLocker UML](https://github.discoverfinancial.com/critche/trucreds-acessDenied-Discover-dLocker/blob/main/designs/images/uml/Team-AccessDenied-DLocker-Logical-Architecture%20-%20Physical.png)
+## dLocker Wallet Recovery Flow
+![dLocker Recovery Sequence Diagram](https://github.discoverfinancial.com/critche/trucreds-acessDenied-Discover-dLocker/blob/main/designs/images/uml/Team-AccessDenied-DLocker-Recovery-Sequence-Diagram.png)
