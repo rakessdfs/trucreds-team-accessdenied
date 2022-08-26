@@ -1,9 +1,7 @@
-# Use Case Story Title
+# dLocker Use Case
 
->NOTE: Update title and remove all Template Instructions.
- 
 #### Table of Contents
-- [Use Case Story Title](#use-case-story-title) 
+- [dLocker Story](#use-case-story-title) 
       - [Table of Contents](#table-of-contents)
   - [Acknowledgements](#acknowledgements)
   - [Business Challenge](#business-challenge)
@@ -14,74 +12,49 @@
   - [Persona](#persona)
   - [Story](#story)
   - [Demo Workflow](#demo-workflow)
-    - [Step 1](#step-1)
-    - [Step 2](#step-2)
 
  
 ## Acknowledgements
+Our project enables Discover to provide Digital Locker feature. The customers can store and access the backup of their digital wallet anytime they want. The backup could include any type of digital keys, ids, credentials, and other types of cryptographic materials. 
 
->Template Instructions: List any acknowledgements pertaining to the concepts and resources used in this use case story.
- 
-1. This scenario leverages a fictitious company called, _Acme Enterprise_. The <img src="./images/persona/acme-logo.png" width="50" height="40"> Acme Enterprise logo is borrowed from [Katie Wickens](https://steins_kake.artstation.com/projects/ebqgb), a graphics designer.
+* dLocker Logo
+![dLocker Logo](./images/persona/discover-digital-locker-logo.png)
  
 ## Business Challenge
->Template Instructions: Briefly describe the business challenge address by this use case story.
+This solution is important because it provides a fully secured implementation for digital backup of digital wallet in the decentralized ID world.  Customers can be worry free about the data they have on their digital wallet during phone loss or compromise. It provides an opportunity to DFS to lead the digital bank by providing this feature.
+
  
 ### Concept
->Template Instructions: Briefly describe how this use case applies digit trust technology to the business challenge. 
+* Architectural diagram
+![Architectural Diagram](./images/uml/MicrosoftTeams-image1.png)
  
 ### Approach
->Template Instructions: Describe the end to end interactions of the stakeholders in the trust triangle pertinent to this use case story.
+The world is changing to digital and there is no TRUE Digital Locker available in the market. We have vendor specific lockers to store computer hardware related keys or lockers that stores the uploaded documents in digital format. But there is none available which securely store the recovery material and positively identify the identity owner in a decentralized way. People can’t remember all the keys and the physical copy of them are vulnerable. They need a reliable and secure backup. The Digital locker is filling this void space for digital backup. When the mobile device is lost, the holder need not go to each and every issuer to get the IDs reissued. He can just go to Discover Locker to reissue the ID and with that it can access his lost wallet and identities inside of it.
 
-![trust-triangle](./images/misc/trust-triangle.png)
- 
 ## Vernacular
 
->Template Instructions: List and describe any terms that will be used in the story and referenced in the UML diagrams. The current list provides a a sample starter list. 
- 
 1. **Digital Wallet**: A financial transaction application that runs on multiple device modalities (mobile, computer). These applications store, manage, and present payment and identity instruments.
-3. **Merchant**: An entity involved in e-commerce trade.
-4. **Checkout Platform**: An e-Commerce Payment Platform (web application) used by merchants to manage the consumer experience and the end-to-end processing of e-commerce transactions.
-5. **Credential Verifier Utility**: A merchant would augment their Checkout Platform with support by a vendor solution that allows consumers to: (a) consent to a digital authentication challenge; (b) present a digital credential for identity verification.
+3. **DLocker Customer**: Discover locker customer.
+4. **Credential Verifier Utility**: A merchant would augment their Checkout Platform with support by a vendor solution that allows consumers to: (a) consent to a digital authentication challenge; (b) present a digital credential for identity verification.
 6. **Issuer**: A entity that makes assertions about information and delivers digital credentials containing attestations about those assertions.
-7. **Credential Generator**: A software component used by the Issuer to manage the generation of new digital credentials.
-8. **Credential Issuer Utility**: An Issuer would augment their Credential Generator with support by a vendor solution that allows Issuers to publish a digital credential to consumers.
-9. **Public Registry**: A public utility that allows for the registration and discovery of Decentralized Identifiers (DIDs).
+7. **Discover Locker API**: A public utility that allows for the registration and discovery of Decentralized Identifiers (DIDs).
  
 ## Assumptions
-
->Template Instructions: List any assumptions to be considered in this use case story.
  
-1. Use case assumes knowledge of the W3C Standards and open source software that supports the concepts outlined by the [Trust over IP Foundation](https://trustoverip.org/toip-model/).
-2. Credential Issuer and Verifier Utility solutions are readily available from 3rd party vendors.
+1. For the dLocker application the customer digital locker is present in Discover network. 
+2. Using the Verity Flow, the Discover issuer and verifier are presented in this use case.
  
 ## Persona
 
->Template Instructions: Using the sample persona images in the /images folder, describe the roles of the entities involved in this use case story. The current list provides a a sample starter list. Refer to ./HELP.md#digital-trust-use-cases for example usage.
- 
-| Actor | Role | Goals | Details |
-| --- | --- | --- | --- |
-| <img src="./images/persona/discover_logo.png" width="60" height="60"> | Verifier |  |  |
-|  <img src="./images/persona/acme-logo.png" width="50" height="40"> Acme Enterprise | Issuer |  |  |
-| <img src="./images/persona/Angelica.png" width="40" height="40"> Angelica | Consumer |  |  |
+Please refer to the Verity Flow use case below
+
+Verity Use Case: [Verity Use Case](https://github.discoverfinancial.com/critche/trucreds-acessDenied-Discover-dLocker/blob/main/track/dti/make_prototype.md)
  
 ## Story
->Template Instructions: Using the sample persona images in the /images folder, describe the steps that are involved in the interactive use case story. Refer to ./HELP.md#digital-trust-use-cases for example usage.
- 
-* <img src="./images/persona/acme-logo.png" width="50" height="40"> Acme Enterprise decided to issue a XYZ credential. 
+Please refer to the story use case below
+
+Use Case: [Use Case and Design](https://github.discoverfinancial.com/critche/trucreds-acessDenied-Discover-dLocker/blob/main/hackproject/usecase.md)
  
 ## Demo Workflow
-
->Template Instructions: Using the sample persona images in the /images folder, describe the steps od the use case story as they relate to the UML diagram. Refer to ./HELP.md#digital-trust-use-cases for example usage. If desired, a single diagram can be used instead of multiple steps. 
- 
-### Step 1
-<img src="./images/persona/acme-logo.png" width="50" height="40"> Acme Enterprise and <img src="./images/persona/discover_logo.png" width="60" height="60"> register their DIDs.
- 
-![step1](./images/uml/step1-diagram.png)
- 
-### Step 2
- 
-<img src="./images/persona/discover_logo.png" width="60" height="60"> challenges <img src="./images/persona/Angelica.png" width="50" height="50"> Angelica for a credential.
- 
-![step2](./images/uml/step2-diagram.png)
- 
+* Sequence Diagram
+![Flow Diagram](./images/uml/MicrosoftTeams-image.png) 
