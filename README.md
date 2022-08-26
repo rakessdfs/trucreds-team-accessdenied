@@ -19,7 +19,8 @@ Digital locker falls under Social recovery option. i.e., there are "trustees" wh
 3. Design Thinking Playback Brief: https://discoverfinancial-my.sharepoint.com/:p:/g/personal/rakeshkumarsharma_discover_com/EZGyvLO0kbpFg0fPTUyGReUB--QxUXWD4NlO0tHv99nc5g
 4. Concept Playback Video: https://discoverfinancial-my.sharepoint.com/:v:/g/personal/rakeshkumarsharma_discover_com/EWvOGG2XTdZIqKP5URDy1WQBLr_q7p4f6B-VA_DgaqULBw
 5. Concept Show-n-Tell Video: https://discoverfinancial-my.sharepoint.com/:v:/g/personal/rakeshkumarsharma_discover_com/EfedQxSNyXhEtd_yvs4AQOcBmqmqlYfYxk8OchWT1QtihA
-6. Code: https://github.discoverfinancial.com/critche/trucreds-acessDenied-Discover-dLocker/blob/main/hackproject/dti/prototypeCode/discover-dlocker/README.md 
+6. Code: https://github.discoverfinancial.com/critche/trucreds-acessDenied-Discover-dLocker/blob/main/README.md 
+7. Verity Flow: [Images](./track/dti/images)
 
 
 | Requirement | Deliverable |
@@ -29,7 +30,7 @@ Digital locker falls under Social recovery option. i.e., there are "trustees" wh
 | Design Thinking Playback Brief | [Playback Presentation](./presentations/Team-AccessDenied-Design-Brief.pptx)|
 | Concept Playback Video | [Video URL](https://discoverfinancial-my.sharepoint.com/:v:/g/personal/rakeshkumarsharma_discover_com/EWvOGG2XTdZIqKP5URDy1WQBLr_q7p4f6B-VA_DgaqULBw)|
 | Concept Show-n-Tell Video | [Video URL](https://discoverfinancial-my.sharepoint.com/:v:/g/personal/rakeshkumarsharma_discover_com/EfedQxSNyXhEtd_yvs4AQOcBmqmqlYfYxk8OchWT1QtihA) |
-| Code |  [ Readme](./hackproject/README.md) |
+| Code |  [ Readme](./hackproject/README.md) | 
 
 ## Solution Decisions
 
