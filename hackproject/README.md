@@ -4,5 +4,5 @@ Team Access Denied did the Digital Ideation Track for which we did the prototype
 
 | Prototype App Screenshots | [Prototype App Screenshots](../designs/images/discover-dLocker/) |
 
-| Verity Flow Screenshots | [Verity Flow Screenshots](../../track/dti/images) |
+| Verity Flow Screenshots | [Verity Flow Screenshots](../track/dti/images) |
 
